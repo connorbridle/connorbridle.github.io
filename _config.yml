@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Connor"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Graduate in Computer Science"
+  name             : "Connor Bridle"
+  avatar           : "/images/face.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Computer Science Graduate"
   location         : "Cheshire, UK"
   email            :
   uri              :
