@@ -7,7 +7,6 @@ header:
     image: "/images/hall.jpg"
 ---
 
-# src: dataoptimal (github)
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
