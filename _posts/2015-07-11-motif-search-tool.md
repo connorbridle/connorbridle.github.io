@@ -16,7 +16,7 @@ The design decided upon was a website based application, which in my opinion is 
 Due to limitations on the school webserver, modern Python libraries and frameworks were not used. Instead, to run python from the web, CGI (Common Gateway Interface) was used. The CGI script written in Python would be invoked by the HTTP server and would then process data fed through the HTML forms on the web front-end.
 
 ## Implementation
-The following code highlights how the linear motifs were found in the given sequence number. Excessive commenting is given to explain the code.
+The following code highlights how the linear motifs were found in the given sequence number. The basis of the function was a text mining task, utilising a regex pattern which was converted from the given prosite pattern.
 {% highlight python %}
   def get_linear_motifs(sequence):
     innerList = [] # Creation of new list to house the motifs found
@@ -38,7 +38,8 @@ The following code highlights how the linear motifs were found in the given sequ
     outputData['success_data'].append({'motifs_found': innerList})
 {% endhighlight %}
 
+The website facilitates several input options, inlucing a single protein search and a batch protein search. This was achieved using multiple functions with differing techniques of splitting up inputted queries. Batch queries were incrementally run through the Uniprot API and then output was provided to the user once all queries were complete.
 
 ## Work Produced
-The final product is highlighted in the image below:
+The final product is highlighted in the images below:
 <img src="{{ site.url }}{{  site.baseurl }}/images/motif/motif-frontpage.png" alt="An image of Keele hall as a placeholder">
