@@ -1,14 +1,9 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
+_site
+.sass-cache
 .DS_Store
 .jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
+
+# Ignore the config file that's used for gh-pages.
+_config.gh-pages.yml
+
 Gemfile.lock
-node_modules
-npm-debug.log*
