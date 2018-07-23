@@ -3,7 +3,7 @@ title:       Project Portfolio
 email:       cbridle.business@gmail.com
 author:      Connor Bridle
 description: "Website containing all relevant portfolio work."
-baseurl:     "https://connorbridle.github.io/"
+baseurl:     ""
 url:         "https://connorbridle.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
